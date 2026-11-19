@@ -1,0 +1,33 @@
+{
+	"name" : "No More Upg Prefixes",
+	"description" : "Changes Upg. building names to unique upgrades.",
+	"author" : "YetiHere",
+	"version" : "2.1",
+	"contact": "DM me Discord, @debil1234o289376469689"
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		],
+		"2.0" : [
+			"Added Cathedral and Ruins mod towns support"
+		],
+		"2.1" : [
+			"Fixed typos in English translation"
+		],
+		"2.2" : [
+			"Added Pavilion mod town support"
+		]
+	},
+	"modType" : "Translation",
+	"softDepends" : [ "hota", "ruins-town", "cathedral-town", "new-pavilion" ],
+	"english" : {
+		"translations" : [
+			"config/buildingnames/game.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"config/polishnames/game.json"
+		]
+	}
+}
